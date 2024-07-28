@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@doist/todoist-api-typescript": "^3.0.3"
+  }
+}

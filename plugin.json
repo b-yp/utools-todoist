@@ -1,0 +1,33 @@
+{
+  "name": "utools-todoist",
+  "version": "0.0.1",
+  "pluginName": "todoist",
+  "description": "uTools Todoist 插件",
+  "logo": "assets/logo.png",
+  "preload": "preload.js",
+  "features": [
+    {
+      "code": "set_api_key",
+      "explain": "设置API口令",
+      "cmds": ["设置API口令", "Set API key"]
+    },
+    {
+      "code": "get_projects",
+      "explain": "获取全部项目",
+      "cmds": ["获取全部项目", "Get projects"]
+    },
+    {
+      "code": "add_task",
+      "explain": "新建任务",
+      "cmds": [{
+        "type": "over",
+        "label": "新建任务"
+      }]
+    },
+    {
+      "code": "complete_task",
+      "explain": "完成任务",
+      "cmds": ["完成任务", "Complete task"]
+    }
+  ]
+}
